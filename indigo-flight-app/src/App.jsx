@@ -50,7 +50,7 @@ async function sendNotification() {
       key1: "value1"
     }
   };
-
+  console.log(body);
   try {
     if(FCM_TOKEN =="") throw new Error("Invalid FCM token");
     const response = await axios.post(url, body)
