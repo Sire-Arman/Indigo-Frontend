@@ -33,6 +33,7 @@ function FlightDashboard() {
   };
 
   return (
+    <>
     <div>
       <Typography variant="h4" gutterBottom>
         Flight Dashboard
@@ -72,6 +73,7 @@ function FlightDashboard() {
         </Table>
       </TableContainer>
     </div>
+    </>
   );
 }
 
